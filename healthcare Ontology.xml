@@ -1,0 +1,1784 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/healthcareontology"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/healthcareontology"
+     versionIRI="http://www.semanticweb.org/healthcareontology.1.0.">
+    <Prefix name="" IRI="http://www.semanticweb.org/healthcareontology"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <Literal>Healthcare Ontology</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="#ADHD"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Animals"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Asthma"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Biochemistry_Analyzer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#COPD"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chemotherapy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Defibrillators"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Diabetes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ECG_machines"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ectopic_Pregnancy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Femara"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fungi"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hematology_Analyzer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Immunotherapy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Infusion_Pump"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Light_Smoker"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lung_Cancer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Metformin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Occasional_Smoker"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Patient_monitor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Plants"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Prokaryotes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Protists"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Radiation_Therapy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Radical_Mastectomy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Radon_Monitor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Random_Migration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Red_Muscle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Reduction_Mammaplasty"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rehabilitation_Medicine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Respiratory_Movement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Resting_Metabolism"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rhabdo_Myolysis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Stroke"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Surgery"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Syringe_Pump"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ventilator"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Reichert’s_Membrane"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/HCO_100"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/HCO_101"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/HCO_102"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/HCO_103"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/HCO_104"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/HCO_105"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/HCO_106"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/HCO_107"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/HCO_108"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/HCO_109"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/HCO_110"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/HCO_111"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/HCO_112"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/HCO_113"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/HCO_114"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/HCO_115"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/HCO_117"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/HCO_118"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/HCO_119"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/HCO_120"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/HCO_121"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/HCO_122"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/HCO_123"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/HCO_124"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/HCO_126"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/HCO_127"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/HCO_128"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/HCO_129"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#admits"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#bills_issued"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#identifies_clinical_activity"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_performed_on"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#prescribes_drug"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#provides_treatment_for"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#uses_medical_device"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/HCO_125"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/HCO_130"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Admitted_On"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Clinical_Activity_Name"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Consent_Status"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Diagnosed_Disease"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Equipments_Used"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Patient_History"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Patient_ID"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Prescribed_Drugs"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mr.Theov_nesta"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mr._Hectal"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mr._Rick_Dawson"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mrs._Anglosia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ms._Damita"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="/HCO_116"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#ADHD"/>
+        <Class IRI="/HCO_103"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Animals"/>
+        <Class IRI="/HCO_105"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Asthma"/>
+        <Class IRI="/HCO_103"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Biochemistry_Analyzer"/>
+        <Class IRI="/HCO_104"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#COPD"/>
+        <Class IRI="/HCO_103"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chemotherapy"/>
+        <Class IRI="/HCO_122"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Defibrillators"/>
+        <Class IRI="/HCO_104"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Diabetes"/>
+        <Class IRI="/HCO_103"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ECG_machines"/>
+        <Class IRI="/HCO_104"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ectopic_Pregnancy"/>
+        <Class IRI="/HCO_103"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Femara"/>
+        <Class IRI="/HCO_122"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fungi"/>
+        <Class IRI="/HCO_105"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hematology_Analyzer"/>
+        <Class IRI="/HCO_104"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Immunotherapy"/>
+        <Class IRI="/HCO_122"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Infusion_Pump"/>
+        <Class IRI="/HCO_104"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Light_Smoker"/>
+        <Class IRI="/HCO_118"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lung_Cancer"/>
+        <Class IRI="/HCO_103"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Metformin"/>
+        <Class IRI="/HCO_122"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Occasional_Smoker"/>
+        <Class IRI="/HCO_118"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Patient_monitor"/>
+        <Class IRI="/HCO_104"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Plants"/>
+        <Class IRI="/HCO_105"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Prokaryotes"/>
+        <Class IRI="/HCO_105"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Protists"/>
+        <Class IRI="/HCO_105"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Radiation_Therapy"/>
+        <Class IRI="/HCO_122"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Radical_Mastectomy"/>
+        <Class IRI="/HCO_109"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Radon_Monitor"/>
+        <Class IRI="/HCO_109"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Random_Migration"/>
+        <Class IRI="/HCO_109"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Red_Muscle"/>
+        <Class IRI="/HCO_109"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Reduction_Mammaplasty"/>
+        <Class IRI="/HCO_109"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rehabilitation_Medicine"/>
+        <Class IRI="/HCO_109"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Respiratory_Movement"/>
+        <Class IRI="/HCO_109"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Resting_Metabolism"/>
+        <Class IRI="/HCO_109"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rhabdo_Myolysis"/>
+        <Class IRI="/HCO_109"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Stroke"/>
+        <Class IRI="/HCO_103"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Surgery"/>
+        <Class IRI="/HCO_122"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Syringe_Pump"/>
+        <Class IRI="/HCO_104"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ventilator"/>
+        <Class IRI="/HCO_104"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Reichert’s_Membrane"/>
+        <Class IRI="/HCO_109"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/HCO_107"/>
+        <Class IRI="/HCO_106"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/HCO_108"/>
+        <Class IRI="/HCO_106"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/HCO_110"/>
+        <Class IRI="/HCO_100"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/HCO_111"/>
+        <Class IRI="/HCO_100"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/HCO_112"/>
+        <Class IRI="/HCO_100"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/HCO_113"/>
+        <Class IRI="/HCO_106"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/HCO_114"/>
+        <Class IRI="/HCO_106"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/HCO_115"/>
+        <Class IRI="/HCO_109"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/HCO_117"/>
+        <Class IRI="/HCO_102"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/HCO_118"/>
+        <Class IRI="/HCO_117"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/HCO_119"/>
+        <Class IRI="/HCO_118"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/HCO_120"/>
+        <Class IRI="/HCO_124"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/HCO_120"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/HCO_130"/>
+            <Class IRI="/HCO_129"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/HCO_121"/>
+        <Class IRI="/HCO_105"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/HCO_123"/>
+        <Class IRI="/HCO_101"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/HCO_124"/>
+        <Class IRI="/HCO_101"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/HCO_127"/>
+        <Class IRI="/HCO_126"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/HCO_127"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/HCO_125"/>
+            <Class IRI="/HCO_103"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/HCO_128"/>
+        <Class IRI="/HCO_102"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/HCO_129"/>
+        <Class IRI="/HCO_128"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#ADHD"/>
+        <Class IRI="#Asthma"/>
+        <Class IRI="#COPD"/>
+        <Class IRI="#Diabetes"/>
+        <Class IRI="#Ectopic_Pregnancy"/>
+        <Class IRI="#Lung_Cancer"/>
+        <Class IRI="#Stroke"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Animals"/>
+        <Class IRI="#Fungi"/>
+        <Class IRI="#Plants"/>
+        <Class IRI="#Prokaryotes"/>
+        <Class IRI="#Protists"/>
+        <Class IRI="/HCO_121"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Biochemistry_Analyzer"/>
+        <Class IRI="#Defibrillators"/>
+        <Class IRI="#ECG_machines"/>
+        <Class IRI="#Hematology_Analyzer"/>
+        <Class IRI="#Infusion_Pump"/>
+        <Class IRI="#Patient_monitor"/>
+        <Class IRI="#Syringe_Pump"/>
+        <Class IRI="#Ventilator"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Chemotherapy"/>
+        <Class IRI="#Immunotherapy"/>
+        <Class IRI="#Metformin"/>
+        <Class IRI="#Radiation_Therapy"/>
+        <Class IRI="#Surgery"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Light_Smoker"/>
+        <Class IRI="#Occasional_Smoker"/>
+        <Class IRI="/HCO_119"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Radical_Mastectomy"/>
+        <Class IRI="#Radon_Monitor"/>
+        <Class IRI="#Random_Migration"/>
+        <Class IRI="#Red_Muscle"/>
+        <Class IRI="#Reduction_Mammaplasty"/>
+        <Class IRI="#Rehabilitation_Medicine"/>
+        <Class IRI="#Respiratory_Movement"/>
+        <Class IRI="#Resting_Metabolism"/>
+        <Class IRI="#Rhabdo_Myolysis"/>
+        <Class IRI="#Reichert’s_Membrane"/>
+        <Class IRI="/HCO_115"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="/HCO_127"/>
+        <NamedIndividual IRI="#Mr.Theov_nesta"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/HCO_127"/>
+        <NamedIndividual IRI="#Mr._Hectal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/HCO_127"/>
+        <NamedIndividual IRI="#Mr._Rick_Dawson"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/HCO_127"/>
+        <NamedIndividual IRI="#Mrs._Anglosia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/HCO_127"/>
+        <NamedIndividual IRI="#Ms._Damita"/>
+    </ClassAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Admitted_On"/>
+        <NamedIndividual IRI="#Mr.Theov_nesta"/>
+        <Literal>28-11-2021</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Clinical_Activity_Name"/>
+        <NamedIndividual IRI="#Mr.Theov_nesta"/>
+        <Literal>Red Muscle</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Consent_Status"/>
+        <NamedIndividual IRI="#Mr.Theov_nesta"/>
+        <Literal>No</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Diagnosed_Disease"/>
+        <NamedIndividual IRI="#Mr.Theov_nesta"/>
+        <Literal>None</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Patient_History"/>
+        <NamedIndividual IRI="#Mr.Theov_nesta"/>
+        <Literal>Occasional Smoker</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Patient_ID"/>
+        <NamedIndividual IRI="#Mr.Theov_nesta"/>
+        <Literal>Mr.theov58923</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Admitted_On"/>
+        <NamedIndividual IRI="#Mr._Hectal"/>
+        <Literal>27-11-2021</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Clinical_Activity_Name"/>
+        <NamedIndividual IRI="#Mr._Hectal"/>
+        <Literal>Resting Metabolism</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Consent_Status"/>
+        <NamedIndividual IRI="#Mr._Hectal"/>
+        <Literal>Yes</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Diagnosed_Disease"/>
+        <NamedIndividual IRI="#Mr._Hectal"/>
+        <Literal>Stroke</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Equipments_Used"/>
+        <NamedIndividual IRI="#Mr._Hectal"/>
+        <Literal>Patient Monitor
+Syringe Pump</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Patient_History"/>
+        <NamedIndividual IRI="#Mr._Hectal"/>
+        <Literal>Light Smoker</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Patient_ID"/>
+        <NamedIndividual IRI="#Mr._Hectal"/>
+        <Literal>Mr.Hectal3467</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Admitted_On"/>
+        <NamedIndividual IRI="#Mr._Rick_Dawson"/>
+        <Literal>26-11-2021</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Clinical_Activity_Name"/>
+        <NamedIndividual IRI="#Mr._Rick_Dawson"/>
+        <Literal>Radiation Monitoring</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Consent_Status"/>
+        <NamedIndividual IRI="#Mr._Rick_Dawson"/>
+        <Literal>Yes</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Diagnosed_Disease"/>
+        <NamedIndividual IRI="#Mr._Rick_Dawson"/>
+        <Literal>Lung Cancer</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Equipments_Used"/>
+        <NamedIndividual IRI="#Mr._Rick_Dawson"/>
+        <Literal>Hematology Analyzer
+ECG Machines</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Patient_History"/>
+        <NamedIndividual IRI="#Mr._Rick_Dawson"/>
+        <Literal>Heavy Smoker</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Patient_ID"/>
+        <NamedIndividual IRI="#Mr._Rick_Dawson"/>
+        <Literal>Mr.Rick_21178</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Prescribed_Drugs"/>
+        <NamedIndividual IRI="#Mr._Rick_Dawson"/>
+        <Literal>Femara</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Admitted_On"/>
+        <NamedIndividual IRI="#Mrs._Anglosia"/>
+        <Literal>25-11-2021</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Clinical_Activity_Name"/>
+        <NamedIndividual IRI="#Mrs._Anglosia"/>
+        <Literal>Repeated Miscarriage</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Consent_Status"/>
+        <NamedIndividual IRI="#Mrs._Anglosia"/>
+        <Literal>Yes</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Diagnosed_Disease"/>
+        <NamedIndividual IRI="#Mrs._Anglosia"/>
+        <Literal>Ectopic Pregnancy</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Equipments_Used"/>
+        <NamedIndividual IRI="#Mrs._Anglosia"/>
+        <Literal>Syringe Pump
+Biochemsitry Analyzer
+Infusion Pump</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Patient_History"/>
+        <NamedIndividual IRI="#Mrs._Anglosia"/>
+        <Literal>Light Smoker</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Patient_ID"/>
+        <NamedIndividual IRI="#Mrs._Anglosia"/>
+        <Literal>mrs.Anglosia34567</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Admitted_On"/>
+        <NamedIndividual IRI="#Ms._Damita"/>
+        <Literal>25-11-2021</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <Annotation>
+            <AnnotationProperty IRI="/HCO_116"/>
+            <Literal>RM</Literal>
+        </Annotation>
+        <DataProperty IRI="#Clinical_Activity_Name"/>
+        <NamedIndividual IRI="#Ms._Damita"/>
+        <Literal>Random Migration</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Consent_Status"/>
+        <NamedIndividual IRI="#Ms._Damita"/>
+        <Literal>Yes</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Diagnosed_Disease"/>
+        <NamedIndividual IRI="#Ms._Damita"/>
+        <Literal>Diabetes</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Patient_History"/>
+        <NamedIndividual IRI="#Ms._Damita"/>
+        <Literal>Light Smoker</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Patient_ID"/>
+        <NamedIndividual IRI="#Ms._Damita"/>
+        <Literal>Ms.damita27501</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Prescribed_Drugs"/>
+        <NamedIndividual IRI="#Ms._Damita"/>
+        <Literal>Metformin</Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#admits"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#prescribes_drug"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#admits"/>
+        <Class IRI="/HCO_114"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#bills_issued"/>
+        <Class IRI="/HCO_112"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#identifies_clinical_activity"/>
+        <Class IRI="/HCO_114"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#is_performed_on"/>
+        <Class IRI="/HCO_109"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#prescribes_drug"/>
+        <Class IRI="/HCO_109"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#prescribes_drug"/>
+        <Class IRI="/HCO_114"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#provides_treatment_for"/>
+        <Class IRI="/HCO_114"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#uses_medical_device"/>
+        <Class IRI="/HCO_114"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/HCO_125"/>
+        <Class IRI="/HCO_103"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/HCO_130"/>
+        <Class IRI="/HCO_118"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#admits"/>
+        <Class IRI="/HCO_127"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#bills_issued"/>
+        <Class IRI="/HCO_126"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#identifies_clinical_activity"/>
+        <Class IRI="#Radon_Monitor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#identifies_clinical_activity"/>
+        <Class IRI="/HCO_109"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#is_performed_on"/>
+        <Class IRI="/HCO_127"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#prescribes_drug"/>
+        <Class IRI="/HCO_127"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#provides_treatment_for"/>
+        <Class IRI="/HCO_127"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#uses_medical_device"/>
+        <Class IRI="/HCO_104"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/HCO_125"/>
+        <Class IRI="/HCO_126"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/HCO_130"/>
+        <Class IRI="/HCO_126"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Admitted_On"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Clinical_Activity_Name"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Consent_Status"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Diagnosed_Disease"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Equipments_Used"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Patient_History"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Prescribed_Drugs"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Admitted_On"/>
+        <Class IRI="/HCO_114"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Admitted_On"/>
+        <Class IRI="/HCO_127"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Clinical_Activity_Name"/>
+        <Class IRI="/HCO_109"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Clinical_Activity_Name"/>
+        <Class IRI="/HCO_127"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Consent_Status"/>
+        <Class IRI="/HCO_120"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Consent_Status"/>
+        <Class IRI="/HCO_127"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Diagnosed_Disease"/>
+        <Class IRI="/HCO_103"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Diagnosed_Disease"/>
+        <Class IRI="/HCO_127"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Equipments_Used"/>
+        <Class IRI="/HCO_104"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Patient_History"/>
+        <Class IRI="/HCO_118"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Patient_History"/>
+        <Class IRI="/HCO_127"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Patient_ID"/>
+        <Class IRI="/HCO_127"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Prescribed_Drugs"/>
+        <Class IRI="/HCO_122"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Prescribed_Drugs"/>
+        <Class IRI="/HCO_127"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#Admitted_On"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Consent_Status"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Diagnosed_Disease"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Equipments_Used"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Patient_History"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Patient_ID"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Prescribed_Drugs"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#ADHD</IRI>
+        <Literal xml:lang="en">Attention deficit hyperactivity disorder , commonly observed among smoking issues during pregnancy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ADHD</IRI>
+        <Literal xml:lang="en">ADHD</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Admitted_On</IRI>
+        <Literal xml:lang="en">When did the patient get admitted</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Animals</IRI>
+        <Literal xml:lang="en">All multicellular animals</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Animals</IRI>
+        <Literal xml:lang="en">Animals</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Asthma</IRI>
+        <Literal xml:lang="en">A condition of severity where its too difficult to breathe because of mucus in excess</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Asthma</IRI>
+        <Literal xml:lang="en">Asthma</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Biochemistry_Analyzer</IRI>
+        <Literal xml:lang="en">Used to measure metabolites present in biological samples such as urine or blood.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Biochemistry_Analyzer</IRI>
+        <Literal xml:lang="en">Biochemistry Analyzer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#COPD</IRI>
+        <Literal xml:lang="en">Chronic obstructive pulmonary disease caused by lung issues</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#COPD</IRI>
+        <Literal xml:lang="en">COPD</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Chemotherapy</IRI>
+        <Literal xml:lang="en">A treatment to kill cancer cells using medicinal prescriptions</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Chemotherapy</IRI>
+        <Literal xml:lang="en">Chemotherapy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Clinical_Activity_Name</IRI>
+        <Literal xml:lang="en">patient has undergone which clinical activity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Consent_Status</IRI>
+        <Literal>Consent is given by patient for treatment</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Defibrillators</IRI>
+        <Literal xml:lang="en">Whenever sensing an aberrant heartbeat, an implanted defibrillators (ICD) manages the heart rhythm by giving impulses to the heart.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Defibrillators</IRI>
+        <Literal xml:lang="en">Defibrillators</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Diabetes</IRI>
+        <Literal xml:lang="en">A disease when the level of blood sugar or glucose is too high</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Diabetes</IRI>
+        <Literal xml:lang="en">Diabetes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Diagnosed_Disease</IRI>
+        <Literal xml:lang="en">Diagnosed with what disease</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#ECG_machines</IRI>
+        <Literal xml:lang="en">The heart rate and electrical impulses will normally be presented as a graph on an ECG recording equipment, either technologically or on paper.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ECG_machines</IRI>
+        <Literal xml:lang="en">ECG Machines</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Ectopic_Pregnancy</IRI>
+        <Literal xml:lang="en">When an egg is fertilized itself outside of the womb, generally from one of the oviduct, it is known as an ectopic pregnancy.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Ectopic_Pregnancy</IRI>
+        <Literal xml:lang="en">Ectopic Pregnancy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Equipments_Used</IRI>
+        <Literal xml:lang="en">List of equipments used by hospital to treat the patients</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Femara</IRI>
+        <Literal xml:lang="en">A drug used to treat cancer in the form of oral chemotherapy medicine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Femara</IRI>
+        <Literal xml:lang="en">Femara</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Fungi</IRI>
+        <Literal xml:lang="en">the species to all modern human beings belong</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Fungi</IRI>
+        <Literal xml:lang="en">Homosapiens</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Hematology_Analyzer</IRI>
+        <Literal xml:lang="en">Blood samples are tested using haematology analyzers.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Hematology_Analyzer</IRI>
+        <Literal xml:lang="en">Hematology Analyzer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Immunotherapy</IRI>
+        <Literal xml:lang="en">Immunotherapy is a type of cancer treatment that helps to fight the tumor or cancer cells through immune system</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Immunotherapy</IRI>
+        <Literal xml:lang="en">Immunotherapy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Infusion_Pump</IRI>
+        <Literal xml:lang="en">A medical device that provides fluids such as nutrition and drugs is known as an infusion pump.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Infusion_Pump</IRI>
+        <Literal xml:lang="en">Infusion Pump</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Light_Smoker</IRI>
+        <Literal xml:lang="en">a smoker who reports consuming 3 or less cigarettes a day</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Light_Smoker</IRI>
+        <Literal xml:lang="en">Light Smoker</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Lung_Cancer</IRI>
+        <Literal xml:lang="en">Cancer that spreads to the lungs</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Lung_Cancer</IRI>
+        <Literal xml:lang="en">Lung Cancer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Metformin</IRI>
+        <Literal xml:lang="en">A drug used to treat diabetes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Metformin</IRI>
+        <Literal xml:lang="en">Metformin</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Occasional_Smoker</IRI>
+        <Literal xml:lang="en">a smoker who reports smoking 5 cigarettes once in every 3 months</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Occasional_Smoker</IRI>
+        <Literal xml:lang="en">Occasional Smoker</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Patient_History</IRI>
+        <Literal xml:lang="en">Past history for the patient&apos;s diagnosis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Patient_ID</IRI>
+        <Literal xml:lang="en">The unique ID marking while the patient is registered to the hospital</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Patient_monitor</IRI>
+        <Literal xml:lang="en">Heart beat, SPO2, pulse rate, temperature, and other biometric data are measured, recorded, distributed, and displayed via patient monitors.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Patient_monitor</IRI>
+        <Literal xml:lang="en">Patient Monitor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Plants</IRI>
+        <Literal xml:lang="en">All green plants</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Plants</IRI>
+        <Literal xml:lang="en">Plants</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Prescribed_Drugs</IRI>
+        <Literal xml:lang="en">what drugs have been prescribed for the patient</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Prokaryotes</IRI>
+        <Literal xml:lang="en">Blue-green algae or normal algae</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Prokaryotes</IRI>
+        <Literal xml:lang="en">Prokaryotes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Protists</IRI>
+        <Literal xml:lang="en">Chlorella, Amoeba and plasmodium types</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Protists</IRI>
+        <Literal xml:lang="en">Protists</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Radiation_Therapy</IRI>
+        <Literal xml:lang="en">A cancer treatment that uses high doses of radiation to kill cancer cells</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Radiation_Therapy</IRI>
+        <Literal xml:lang="en">Radiation Therapy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="/HCO_116"/>
+        <IRI>#Radical_Mastectomy</IRI>
+        <Literal xml:lang="en">RM</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Radical_Mastectomy</IRI>
+        <Literal xml:lang="en">The breast is completely removed during a radical mastectomy.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Radical_Mastectomy</IRI>
+        <Literal xml:lang="en">Radical Mastectomy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="/HCO_116"/>
+        <IRI>#Radon_Monitor</IRI>
+        <Literal xml:lang="en">RM</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Radon_Monitor</IRI>
+        <Literal xml:lang="en">Three or more losses in a row is typically considered Repeated miscarriage.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Radon_Monitor</IRI>
+        <Literal xml:lang="en">Repeated Miscarriage</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="/HCO_116"/>
+        <IRI>#Random_Migration</IRI>
+        <Literal xml:lang="en">RM</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Random_Migration</IRI>
+        <Literal xml:lang="en">Random migration refers to the intrinsic ability of cells to migrate</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Random_Migration</IRI>
+        <Literal xml:lang="en">Random Migration</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="/HCO_116"/>
+        <IRI>#Red_Muscle</IRI>
+        <Literal xml:lang="en">RM</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Red_Muscle</IRI>
+        <Literal xml:lang="en">Red muscles are vasculature, myoglobin, and mitochondria-rich skeletal muscles.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Red_Muscle</IRI>
+        <Literal xml:lang="en">Red Muscle</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="/HCO_116"/>
+        <IRI>#Reduction_Mammaplasty</IRI>
+        <Literal xml:lang="en">RM</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Reduction_Mammaplasty</IRI>
+        <Literal xml:lang="en">a treatment that removes extra breast fat, lymph node, and skin to relieve macromastia pain.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Reduction_Mammaplasty</IRI>
+        <Literal xml:lang="en">Reduction Mammaplasty</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="/HCO_116"/>
+        <IRI>#Rehabilitation_Medicine</IRI>
+        <Literal xml:lang="en">RM</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Rehabilitation_Medicine</IRI>
+        <Literal xml:lang="en">Any practitioner who wants to practise person-centered holistic care should specialise in rehabilitation medicine.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Rehabilitation_Medicine</IRI>
+        <Literal xml:lang="en">Rehabilitation Medicine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="/HCO_116"/>
+        <IRI>#Respiratory_Movement</IRI>
+        <Literal xml:lang="en">RM</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Respiratory_Movement</IRI>
+        <Literal xml:lang="en">The muscle action that allows air to travel between the lungs and other respiratory organs.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Respiratory_Movement</IRI>
+        <Literal xml:lang="en">Respiratory Movement</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="/HCO_116"/>
+        <IRI>#Resting_Metabolism</IRI>
+        <Literal xml:lang="en">RM</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Resting_Metabolism</IRI>
+        <Literal xml:lang="en">While your body is entirely at rest, your resting metabolism helps to identify the rate which is a measure quantity of calories burnt.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Resting_Metabolism</IRI>
+        <Literal xml:lang="en">Resting Metabolism</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="/HCO_116"/>
+        <IRI>#Rhabdo_Myolysis</IRI>
+        <Literal xml:lang="en">RM</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Rhabdo_Myolysis</IRI>
+        <Literal xml:lang="en">Rhabdo Myolysis is the disintegration of muscle tissue, which results in the discharge of the constituents of muscle fibers into the bloodstream.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Rhabdo_Myolysis</IRI>
+        <Literal xml:lang="en">Rhabdo Myolysis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Stroke</IRI>
+        <Literal xml:lang="en">A stroke is a life-threatening diagnosable disorder that occurs when part of the brain&apos;s blood flow is cut off.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Stroke</IRI>
+        <Literal xml:lang="en">Stroke</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Surgery</IRI>
+        <Literal xml:lang="en">An instrumental technique to treat a pathological condition</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Surgery</IRI>
+        <Literal xml:lang="en">Surgery</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Syringe_Pump</IRI>
+        <Literal xml:lang="en">A syringe pump delivers little quantities of fluid to a patient over time.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Syringe_Pump</IRI>
+        <Literal xml:lang="en">Syringe Pump</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Ventilator</IRI>
+        <Literal xml:lang="en">A ventilator aids in the mechanical pumping of oxygen into the patient&apos;s body.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Ventilator</IRI>
+        <Literal xml:lang="en">Ventilator</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#admits</IRI>
+        <Literal>admits patients</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#bills_issued</IRI>
+        <Literal>bills are issues by hospital to patients</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#identifies_clinical_activity</IRI>
+        <Literal>hospital identifies clinical activity with diagnosis and abbreviation guide</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#is_performed_on</IRI>
+        <Literal>Clinical activity is performed on patient</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#prescribes_drug</IRI>
+        <Literal>Prescribes drugs for patients</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#provides_treatment_for</IRI>
+        <Literal>provides treatment for diagnosed disease</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#uses_medical_device</IRI>
+        <Literal>hospital uses devices to treat patients</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="/HCO_116"/>
+        <IRI>#Reichert’s_Membrane</IRI>
+        <Literal xml:lang="en">RM</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>#Reichert’s_Membrane</IRI>
+        <Literal xml:lang="en">In early mammalian embryos, a strong foundation membrane forms between the trophoblast as well as parietal endoderm layers.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Reichert’s_Membrane</IRI>
+        <Literal xml:lang="en">Reichert&apos;s Membrane</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>/HCO_100</IRI>
+        <Literal>An active process; excludes processes and mechanisms which fulfill biological functions.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/HCO_100</IRI>
+        <Literal xml:lang="en">General Activity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>/HCO_101</IRI>
+        <Literal>A sequence of events which produces some outcome.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/HCO_101</IRI>
+        <Literal xml:lang="en">Process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>/HCO_102</IRI>
+        <Literal>An organizational header for concepts representing mostly abstract entities.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/HCO_102</IRI>
+        <Literal xml:lang="en">Conceptual entity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>/HCO_103</IRI>
+        <Literal>A disease is a disposition to undergo pathological processes that exists in an organism because of one or more disorders in that organism.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/HCO_103</IRI>
+        <Literal xml:lang="en">Disease</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>/HCO_104</IRI>
+        <Literal>A physical object created by hand or machine used to treat patients.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/HCO_104</IRI>
+        <Literal xml:lang="en">Medical Equipments</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>/HCO_105</IRI>
+        <Literal>A living entity.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/HCO_105</IRI>
+        <Literal xml:lang="en">Organism</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>/HCO_106</IRI>
+        <Literal>Geographic location refers to a position on the Earth.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/HCO_106</IRI>
+        <Literal xml:lang="en">Geographical location</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>/HCO_107</IRI>
+        <Literal>A collective generic term that refers here to a wide variety of dependencies, areas of special sovereignty, uninhabited islands, and other entities in addition to the traditional countries or independent states.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/HCO_107</IRI>
+        <Literal xml:lang="en">Country</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>/HCO_108</IRI>
+        <Literal>A large and densely populated urban area; a city specified in an address.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/HCO_108</IRI>
+        <Literal xml:lang="en">City</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>/HCO_109</IRI>
+        <Literal>Clinical Activities mean any one or more of the activities associated with drug testing in humans, including trial design and execution, payment of investigators’, institutional, and contractors’ fees, drug distribution and accountability, analytical testing, data management, statistical analysis, adverse event reporting, and scientific publication, performed in pursuit of the Development and Commercialization of a Product.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/HCO_109</IRI>
+        <Literal xml:lang="en">Clinical activity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>/HCO_110</IRI>
+        <Literal>A process of students study the scientific knowledge system by specially developed means and methods</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/HCO_110</IRI>
+        <Literal xml:lang="en">Research acitivity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>/HCO_111</IRI>
+        <Literal>the activities of educating or instructing.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/HCO_111</IRI>
+        <Literal xml:lang="en">Educational activity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>/HCO_112</IRI>
+        <Literal>Administrative Activity means the execution of the District&apos;s management or administrative functions such as preparing budgets, policies, contracts, personnel management, printing course materials and catalogues, maintenance of computer data, long range planning, and keeping inventories of equipment.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/HCO_112</IRI>
+        <Literal xml:lang="en">Administrative activity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>/HCO_113</IRI>
+        <Literal>Space that can be occupied or where something can be done, especially viewed in terms of whether there is enough.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/HCO_113</IRI>
+        <Literal xml:lang="en">Room</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>/HCO_114</IRI>
+        <Literal>A medical organization where patients are admitted and treated</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/HCO_114</IRI>
+        <Literal xml:lang="en">Hospital</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="/HCO_116"/>
+        <IRI>/HCO_115</IRI>
+        <Literal>RM</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>/HCO_115</IRI>
+        <Literal>The measuring of radiation levels in the area of a source of radiation is known as radiation monitoring.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/HCO_115</IRI>
+        <Literal xml:lang="en">Radiation Monitoring</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/HCO_116</IRI>
+        <Literal xml:lang="en">synonym</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>/HCO_117</IRI>
+        <Literal>the way in which a person or group lives.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/HCO_117</IRI>
+        <Literal xml:lang="en">Lifestyle</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/HCO_118</IRI>
+        <Literal xml:lang="en">Smoking history</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>/HCO_119</IRI>
+        <Literal>a smoker who reports consuming 20 cigarettes or more per day</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/HCO_119</IRI>
+        <Literal xml:lang="en">Heavy smoker</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>/HCO_120</IRI>
+        <Literal>A process by which information concerning the intended research is provided to the participant or participant&apos;s substitute decisionmaker with an opportunity for them to ask questions, after which specific approval is documented</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/HCO_120</IRI>
+        <Literal xml:lang="en">Informed consent</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>/HCO_121</IRI>
+        <Literal>mushrooms, moulds and yeast</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/HCO_121</IRI>
+        <Literal xml:lang="en">Fungi</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>/HCO_122</IRI>
+        <Literal>An organic or inorganic substance, element, isotope, food or other materials derived from microorganism, plant, or animal sources. They can be used for the prevention, diagnosis, treatment or research of disease states, for industrial purposes, or for the promotion or maintenance of organism viability or health. [ NCI ]</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/HCO_122</IRI>
+        <Literal xml:lang="en">Drug &amp; Treatment</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>/HCO_123</IRI>
+        <Literal>An activity occurring within an organism, between organisms or among organisms and the mechanisms underlying such events.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/HCO_123</IRI>
+        <Literal xml:lang="en">Biological Process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>/HCO_124</IRI>
+        <Literal xml:lang="en">A process which is detailed to the patient based on the symptoms identified and the consent provided for medication</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/HCO_124</IRI>
+        <Literal xml:lang="en">Planned process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/HCO_125</IRI>
+        <Literal xml:lang="en">diagnosed_with</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>/HCO_126</IRI>
+        <Literal xml:lang="en">An individual who has come for medical visit before knowing the medical issues</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/HCO_126</IRI>
+        <Literal xml:lang="en">Person</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>/HCO_127</IRI>
+        <Literal xml:lang="en">A person who is diagnosed with some disease</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/HCO_127</IRI>
+        <Literal xml:lang="en">Patient</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/HCO_128</IRI>
+        <Literal xml:lang="en">Document</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <IRI>/HCO_129</IRI>
+        <Literal>An informed consent document is typically used to provide subjects with the information they need to make a decision to volunteer for a research study.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/HCO_129</IRI>
+        <Literal xml:lang="en">Informed consent form</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>/HCO_130</IRI>
+        <Literal xml:lang="en">has_input</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
